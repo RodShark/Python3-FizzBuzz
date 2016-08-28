@@ -17,8 +17,7 @@ def main():
 
 if len(sys.argv) <= 1:
     limit = input("Give me a number to set as the highest value we'll be going to. ")
-
- # This try statement doesn't work at all. I couldn't figure it out...   
+    
     try:
         int(limit)
     except ValueError:
